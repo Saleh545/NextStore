@@ -1,0 +1,39 @@
+
+@import url(https://fonts.googleapis.com/css?family=Zilla+Slab:300,300italic,regular,italic,500,500italic,600,600italic,700,700italic);
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+    font-family: Zilla Slab  !important;
+}
+
+
+.telephones{
+    padding: 15px 10px 17px 10px ;
+    display: flex;
+}
+
+ul{
+    padding: 0 !important;
+    
+}
+ul li{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration-line: underline;
+    padding: 0;
+}
+ul li strong{
+    font-size: 19px;
+}
+.right{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
+    margin-left: 90px;
+    gap: 79px;
+}

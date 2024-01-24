@@ -38,6 +38,11 @@ header {
     border-radius: 8px;
     cursor: pointer;
     border: none;
+    outline: none;
+}
+.bars:hover{
+    background: linear-gradient(139deg, rgba(90,154,215,1)  0%,  rgba(228,104,104,1) 82%);
+
 }
 
 .input-btn {
@@ -98,4 +103,8 @@ header {
     outline: none;
     border-radius: 10px;
     background: linear-gradient(139deg, rgba(228,104,104,1) 0%, rgba(90,154,215,1) 82%);
+}
+.login:hover{
+    background: linear-gradient(139deg, rgba(90,154,215,1)  0%,  rgba(228,104,104,1) 82%);
+
 }

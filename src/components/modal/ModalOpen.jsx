@@ -23,10 +23,9 @@ const Modalopen = (props) => {
                 <Col lg="4" >
                   <Sidebar />
                 </Col>
-                <Col>
+                <Col lg="8" >
                 <AppRoutes/>
                 </Col>
-
               </Row>
             </ModalBody>
           </Modal>

@@ -1,9 +1,91 @@
 import React from 'react'
+import "./Pages.css";
 
 const Telephones = () => {
   return (
-    <div>
-      <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1693086369818" alt="" />
+    <div className='telephones'>
+      <div className="left">
+        <ul>
+          <li><strong>Brendlər</strong></li>
+          <li>Samsung</li>
+          <li>Vivo</li>
+          <li>Tecno</li>
+          <li>Realme</li>
+          <li>Xiaomi</li>
+          <li>Apple</li>
+          <li>Artel</li>
+          <li>Nokia</li>
+          <li>Infinix</li>
+          <li>OnePlus</li>
+          <li>ZTE</li>
+          <li>Blackwiew</li>
+          <li>Oppo</li>
+          <li>Ergo</li>
+          <li>BQ</li>
+          <li>Huawei</li>
+          <li>Alcatel</li>
+          <li>TCL</li>
+          <li>Inoi</li>
+        </ul>
+      </div>
+      <div className="right">
+      <ul>
+          <li><strong>Samsung</strong></li>
+          <li>A serialar</li>
+          <li>S serialar</li>
+          <li>Note serialar</li>
+          <li>M serialar</li>
+        </ul> <ul>
+          <li><strong>Redmi</strong></li>
+          <li>A serialar</li>
+          <li>S serialar</li>
+          <li>Note serialar</li>
+          <li>M serialar</li>
+        </ul> <ul>
+          <li><strong>Xiaomi</strong></li>
+          <li>A serialar</li>
+          <li>S serialar</li>
+          <li>Note serialar</li>
+          <li>M serialar</li>
+        </ul> <ul>
+          <li><strong>Nokia</strong></li>
+          <li>A serialar</li>
+          <li>S serialar</li>
+          <li>Note serialar</li>
+          <li>M serialar</li>
+        </ul> <ul>
+          <li><strong>Oppo</strong></li>
+          <li>A serialar</li>
+          <li>S serialar</li>
+          <li>Note serialar</li>
+          <li>M serialar</li>
+        </ul> <ul>
+          <li><strong>Huawei</strong></li>
+          <li>A serialar</li>
+          <li>S serialar</li>
+          <li>Note serialar</li>
+          <li>M serialar</li>
+        </ul> <ul>
+          <li><strong>Apple</strong></li>
+          <li>A serialar</li>
+          <li>S serialar</li>
+          <li>Note serialar</li>
+          <li>M serialar</li>
+        </ul> <ul>
+          <li><strong>Honor</strong></li>
+          <li>A serialar</li>
+          <li>S serialar</li>
+          <li>Note serialar</li>
+          <li>M serialar</li>
+        </ul> <ul>
+          <li><strong>Sony</strong></li>
+          <li>A serialar</li>
+          <li>S serialar</li>
+          <li>Note serialar</li>
+          <li>M serialar</li>
+        </ul>
+      </div>
+
     </div>
   )
 }

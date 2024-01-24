@@ -1,12 +1,10 @@
 
-@import url(https://fonts.googleapis.com/css?family=Zilla+Slab:300,300italic,regular,italic,500,500italic,600,600italic,700,700italic);
 * {
     margin: 0 ;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none !important;
     list-style: none;
-    font-family: Zilla Slab;
 }
 .sidebar {
     border-radius: 8px 0px 0px 8px;
