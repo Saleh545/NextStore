@@ -32,11 +32,12 @@ header {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    background: var(--Button-Gradient, linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%));    border: none;
+    background: linear-gradient(139deg, rgba(228,104,104,1) 0%, rgba(90,154,215,1) 82%);
     gap: 12px;
     text-transform: uppercase;
     border-radius: 8px;
     cursor: pointer;
+    border: none;
 }
 
 .input-btn {
@@ -96,5 +97,5 @@ header {
     border: none;
     outline: none;
     border-radius: 10px;
-    background: var(--Button-Gradient, linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%));    cursor: pointer;
+    background: linear-gradient(139deg, rgba(228,104,104,1) 0%, rgba(90,154,215,1) 82%);
 }

@@ -1,0 +1,33 @@
+
+@import url(https://fonts.googleapis.com/css?family=Zilla+Slab:300,300italic,regular,italic,500,500italic,600,600italic,700,700italic);
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+    font-family: Zilla Slab;
+}
+.sidebar {
+    border-radius: 8px 0px 0px 8px;
+    background: linear-gradient(139deg, rgba(228,104,104,1) 0%, rgba(90,154,215,1) 82%);
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.12);
+    padding: 15px 0 17px 10px ;
+}
+
+.sidebar .link-text {
+    color: var(--Text-Main, #1E1E1E);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 539;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    padding: 9px;
+    cursor: pointer;
+    margin: 0;
+}
+
+p:hover{
+    background-color: white; 
+    border-radius: 8px;
+  }
