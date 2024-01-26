@@ -1,0 +1,57 @@
+.owl-theme .owl-dots .owl-dot span {
+    background: linear-gradient(139deg, rgb(213, 168, 168) 0%, rgb(172, 196, 219) 82%);
+    height: 15px;
+    width: 15px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: linear-gradient(139deg, rgba(228, 104, 104, 1) 0%, rgba(90, 154, 215, 1) 82%);
+}
+
+.owl-stage-outer {
+    position: relative;
+    margin-top: 40px;
+}
+
+.owl-nav button {
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    top: 41%;
+    outline: none;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(139deg, rgb(213, 168, 168) 0%, rgb(172, 196, 219) 82%);
+    border-radius: 50px;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(139deg, rgb(213, 168, 168) 0%, rgb(172, 196, 219) 82%);
+    
+    border-radius: 50px;
+}
+.owl-nav button:first-child {
+    left: -25px;
+}
+
+.owl-nav button:last-child {
+    right: -25px;
+
+}.owl-nav button:hover {
+    background: linear-gradient(139deg, rgba(228, 104, 104, 1) 0%, rgba(90, 154, 215, 1) 82%) !important;
+}
+
+.owl-nav button span {
+    font-size: 40px;
+    height: 63px;
+}

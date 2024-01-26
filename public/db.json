@@ -1,0 +1,93 @@
+{
+  "data": {
+    "brendler": [
+      {
+        "name": "HP",
+        "id": 1
+      },
+      {
+        "name": "Deel",
+        "id": 2
+      },
+      {
+        "name": "Apple",
+        "id": 3
+      },
+      {
+        "name": "Asus",
+        "id": 4
+      },
+      {
+        "name": "Acer",
+        "id": 5
+      },
+      {
+        "name": "Lenovo",
+        "id": 6
+      },
+      {
+        "name": "Toshiba",
+        "id": 7
+      },
+      {
+        "name": "MSI",
+        "id": 8
+      },
+      {
+        "name": "Monster",
+        "id": 9
+      },
+      {
+        "name": "Razer",
+        "id": 10
+      },
+      {
+        "name": "Casper",
+        "id": 11
+      },
+      {
+        "name": "Microsoft Surface",
+        "id": 12
+      }
+    ]
+  },
+  
+  "laptops": [
+    {
+      "brand": "HP",
+      "models": ["15cs-2073cl", "Compaq cq58", "Envy"]
+    },
+    {
+      "brand": "Dell",
+      "models": ["Latitude", "Vostro", "Rugged", "Inspirion"]
+    },
+    {
+      "brand": "Macbook",
+      "models": ["Air", "Air m3", "Pro m3 Max","mi-1"]
+    },
+    {
+      "brand": "Acer",
+      "models": ["Aspire", "Nitro", "Predator", "Helios"]
+    },
+    {
+      "brand": "Asus",
+      "models": ["Tuf gaming", "Rog", "Vivobook", "Zenbook"]
+    },
+    {
+      "brand": "Toshiba",
+      "models": ["Satellite", "Magic", "P 755", "L 775"]
+    },
+    {
+      "brand": "Casper",
+      "models": ["Nirvana", "Office", "Excalibur", "Swift"]
+    },
+    {
+      "brand": "Lenovo",
+      "models": ["Yoga", "Ideapad", "Thinkbook", "c940"]
+    },
+    {
+      "brand": "MSI",
+      "models": ["Vector", "Sword", "Katana", "Modern"]
+    }
+  ]
+}
