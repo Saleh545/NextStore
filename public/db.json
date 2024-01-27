@@ -1,12 +1,13 @@
 {
   "data": {
+
     "brendler": [
       {
         "name": "HP",
         "id": 1
       },
       {
-        "name": "Deel",
+        "name": "Dell",
         "id": 2
       },
       {
@@ -51,7 +52,7 @@
       }
     ]
   },
-  
+
   "laptops": [
     {
       "brand": "HP",
@@ -63,7 +64,7 @@
     },
     {
       "brand": "Macbook",
-      "models": ["Air", "Air m3", "Pro m3 Max","mi-1"]
+      "models": ["Air", "Air m3", "Pro m3 Max", "mi-1"]
     },
     {
       "brand": "Acer",
@@ -88,6 +89,143 @@
     {
       "brand": "MSI",
       "models": ["Vector", "Sword", "Katana", "Modern"]
+    }
+  ],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "brendlers": [
+    {
+      "name": "Samsung",
+      "id": 1
+    },
+    {
+      "name": "Vivo",
+      "id": 2
+    },
+    {
+      "name": "Tecno",
+      "id": 3
+    },
+    {
+      "name": "Realme",
+      "id": 4
+    },
+    {
+      "name": "Xiaomi",
+      "id": 5
+    },
+    {
+      "name": "Apple",
+      "id": 6
+    },
+    {
+      "name": "Artel",
+      "id": 7
+    },
+    {
+      "name": "Nokia",
+      "id": 8
+    },
+    {
+      "name": "Infinix",
+      "id": 9
+    },
+    {
+      "name": "OnePlus",
+      "id": 10
+    },
+    {
+      "name": "ZTE",
+      "id": 11
+    },
+    {
+      "name": "Blackwiew",
+      "id": 12
+    },
+    {
+      "name": "Oppo",
+      "id": 13
+    },
+    {
+      "name": "Ergo",
+      "id": 14
+    },
+    {
+      "name": "BQ",
+      "id": 15
+    },
+    {
+      "name": "Huawei",
+      "id": 16
+    },
+    {
+      "name": "Alcatel",
+      "id": 17
+    },
+    {
+      "name": "TCL",
+      "id": 18
+    },
+    {
+      "name": "Inoi",
+      "id": 19
+    }
+  ],
+
+
+  "telephones": [
+    {
+      "brand": "Samsung",
+      "series": ["A", "S", "Note", "M"]
+    },
+    {
+      "brand": "Xiaomi",
+      "series": ["A", "S", "Note", "M"]
+    },
+    {
+      "brand": "Redmi",
+      "series": ["A", "S", "Note", "M"]
+    },
+    {
+      "brand": "Nokia",
+      "series": ["A", "S", "Note", "M"]
+    },
+    {
+      "brand": "Oppo",
+      "series": ["A", "S", "Note", "M"]
+    },
+    {
+      "brand": "Huawei",
+      "series": ["A", "S", "Note", "M"]
+    },
+    {
+      "brand": "Apple",
+      "series": ["A", "S", "Note", "M"]
+    },
+    {
+      "brand": "Honor",
+      "series": ["A", "S", "Note", "M"]
+    },
+    {
+      "brand": "Sony",
+      "series": ["A", "S", "Note", "M"]
     }
   ]
 }

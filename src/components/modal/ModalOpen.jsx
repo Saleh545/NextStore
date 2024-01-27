@@ -3,7 +3,7 @@ import { Col, Container, Modal, ModalBody, Row } from "reactstrap";
 import Header from "../header/Header.jsx";
 import Sidebar from "./sidebar/Sidebar.jsx";
 import { IoMdCloseCircleOutline } from 'react-icons/io';
-import AppRoutes from "../routes/Routes.jsx";
+import Routes from "../routes/Routes.jsx";
 
 
 const Modalopen = (props) => {
@@ -19,12 +19,12 @@ const Modalopen = (props) => {
           <Modal style={{margin:" 16px  auto"}} isOpen={modal} toggle={toggle} size="xl">
             <ModalBody >
                 <IoMdCloseCircleOutline onClick={()=>!toggle()} style={{ width:"25px", height:"30px", position:"absolute", right:"0", top:"0", margin:"1rem", cursor:"pointer" }} />
-              <Row style={{display:"flex"}}>
+              <Row >
                 <Col lg="4" >
                   <Sidebar />
                 </Col>
                 <Col lg="8" >
-                <AppRoutes/>
+                <Routes/>
                 </Col>
               </Row>
             </ModalBody>

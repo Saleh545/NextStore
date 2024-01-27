@@ -16,7 +16,6 @@ import Chemistry from "../modal/sidebar/pages/Chemistry";
 import Bathroom from "../modal/sidebar/pages/Bathroom";
 import Bedroom from "../modal/sidebar/pages/Bedroom";
 import Accessory from "../modal/sidebar/pages/Accessory";
-
 const AppRoutes = () => {
   return (
     <Routes>
@@ -39,5 +38,4 @@ const AppRoutes = () => {
     </Routes>
   );
 };
-
 export default AppRoutes;

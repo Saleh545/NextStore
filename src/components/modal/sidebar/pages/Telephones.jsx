@@ -1,93 +1,69 @@
-import React from 'react'
+import React, { useEffect, useState } from "react";
 import "./Pages.css";
 
-const Telephones = () => {
+const Computers = () => {
+  const [telBrands, setTelBrands] = useState([]);
+  const [tel, setTel] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch("/db.json");
+        const data = await response.json();
+        // console.log("Data:", data);
+        setTelBrands(data.data.brendlers);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+    fetchData();
+  }, []);
+
+  useEffect(() => {
+    const compData = async () => {
+      try {
+        const res = await fetch("/db.json");
+        const item = await res.json();
+        // console.log("comp-data", item);
+        setTel(item.laptops);
+      } catch (error) {
+        console.error("error data", error);
+      }
+    };
+    compData();
+  }, []);
+
   return (
-    <div className='telephones'>
+    <div className="telephones">
+
       <div className="left">
         <ul>
-          <li><strong>Brendlər</strong></li>
-          <li>Samsung</li>
-          <li>Vivo</li>
-          <li>Tecno</li>
-          <li>Realme</li>
-          <li>Xiaomi</li>
-          <li>Apple</li>
-          <li>Artel</li>
-          <li>Nokia</li>
-          <li>Infinix</li>
-          <li>OnePlus</li>
-          <li>ZTE</li>
-          <li>Blackwiew</li>
-          <li>Oppo</li>
-          <li>Ergo</li>
-          <li>BQ</li>
-          <li>Huawei</li>
-          <li>Alcatel</li>
-          <li>TCL</li>
-          <li>Inoi</li>
+          <li>
+            <strong>Brendlər</strong>
+          </li>
+          {telBrands ? (
+            telBrands.map((tel) => <li key={tel.id}>{tel.name}</li>)
+          ) : (
+            <li>Yüklənir...</li>
+          )}
         </ul>
       </div>
+
       <div className="right">
-      <ul>
-          <li><strong>Samsung</strong></li>
-          <li>A serialar</li>
-          <li>S serialar</li>
-          <li>Note serialar</li>
-          <li>M serialar</li>
-        </ul> <ul>
-          <li><strong>Redmi</strong></li>
-          <li>A serialar</li>
-          <li>S serialar</li>
-          <li>Note serialar</li>
-          <li>M serialar</li>
-        </ul> <ul>
-          <li><strong>Xiaomi</strong></li>
-          <li>A serialar</li>
-          <li>S serialar</li>
-          <li>Note serialar</li>
-          <li>M serialar</li>
-        </ul> <ul>
-          <li><strong>Nokia</strong></li>
-          <li>A serialar</li>
-          <li>S serialar</li>
-          <li>Note serialar</li>
-          <li>M serialar</li>
-        </ul> <ul>
-          <li><strong>Oppo</strong></li>
-          <li>A serialar</li>
-          <li>S serialar</li>
-          <li>Note serialar</li>
-          <li>M serialar</li>
-        </ul> <ul>
-          <li><strong>Huawei</strong></li>
-          <li>A serialar</li>
-          <li>S serialar</li>
-          <li>Note serialar</li>
-          <li>M serialar</li>
-        </ul> <ul>
-          <li><strong>Apple</strong></li>
-          <li>A serialar</li>
-          <li>S serialar</li>
-          <li>Note serialar</li>
-          <li>M serialar</li>
-        </ul> <ul>
-          <li><strong>Honor</strong></li>
-          <li>A serialar</li>
-          <li>S serialar</li>
-          <li>Note serialar</li>
-          <li>M serialar</li>
-        </ul> <ul>
-          <li><strong>Sony</strong></li>
-          <li>A serialar</li>
-          <li>S serialar</li>
-          <li>Note serialar</li>
-          <li>M serialar</li>
-        </ul>
+        {tel ? (
+          tel.map((item) => (
+            <ul key={item.brand}>
+              <strong>{item.brand}</strong>
+              <li>{item.models.map((model, index) => (
+              <li key={index}>{model}</li>))}</li>
+            </ul>
+          ))
+        ) : (
+          <li>Yüklənir...</li>
+        )}
       </div>
-
     </div>
-  )
-}
+  );
+};
 
-export default Telephones
+export default Computers;

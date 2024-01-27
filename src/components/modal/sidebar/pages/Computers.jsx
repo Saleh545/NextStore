@@ -10,13 +10,12 @@ const Computers = () => {
       try {
         const response = await fetch("/db.json");
         const data = await response.json();
-        console.log("Data:", data);
+        // console.log("Data:", data);
         setBrands(data.data.brendler);
       } catch (error) {
         console.error("Error fetching data:", error);
       }
     };
-
     fetchData();
   }, []);
 
@@ -25,7 +24,7 @@ const Computers = () => {
       try {
         const res = await fetch("/db.json");
         const item = await res.json();
-        console.log("comp-data", item);
+        // console.log("comp-data", item);
         setComp(item.laptops);
       } catch (error) {
         console.error("error data", error);
@@ -48,21 +47,18 @@ const Computers = () => {
           )}
         </ul>
       </div>
+
       <div className="right">
-          {comp ? (
-            comp.map((item) => (
-              <li key={item.brand}>
-                <strong>{item.brand}</strong>
-                <ul>
-                  {item.models.map((model, index) => (
-                    <li key={index}>{model}</li>
-                  ))}
-                </ul>
-              </li>
-            ))
-          ) : (
-            <li>Yüklənir...</li>
-          )}
+        {comp ? (
+          comp.map((item) => (
+            <ul key={item.brand}>
+              <strong>{item.brand}</strong>
+              <li>{item.models.map((model, index) => (<li key={index}>{model}</li>))}</li>
+            </ul>
+          ))
+        ) : (
+          <li>Yüklənir...</li>
+        )}
       </div>
     </div>
   );
