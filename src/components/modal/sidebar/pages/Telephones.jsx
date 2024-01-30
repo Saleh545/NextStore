@@ -10,39 +10,30 @@ const Computers = () => {
       try {
         const response = await fetch("/db.json");
         const data = await response.json();
-        // console.log("Data:", data);
-        setTelBrands(data.data.brendlers);
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      }
-    };
-    fetchData();
-  }, []);
+        console.log("Data", data);
 
-  useEffect(() => {
-    const compData = async () => {
-      try {
-        const res = await fetch("/db.json");
-        const item = await res.json();
-        // console.log("comp-data", item);
-        setTel(item.laptops);
+        // Tel markalarını güncelle
+        setTelBrands(data.data.telBrendler);
+
+        // Telefon modellerini güncelle
+        setTel(data.data.telephones);
       } catch (error) {
-        console.error("error data", error);
+        console.error("error fetching data", error);
       }
     };
-    compData();
+
+    fetchData();
   }, []);
 
   return (
     <div className="telephones">
-
       <div className="left">
         <ul>
           <li>
             <strong>Brendlər</strong>
           </li>
           {telBrands ? (
-            telBrands.map((tel) => <li key={tel.id}>{tel.name}</li>)
+            telBrands.map((data) => <li key={data.id}>{data.name}</li>)
           ) : (
             <li>Yüklənir...</li>
           )}
@@ -51,11 +42,13 @@ const Computers = () => {
 
       <div className="right">
         {tel ? (
-          tel.map((item) => (
-            <ul key={item.brand}>
-              <strong>{item.brand}</strong>
-              <li>{item.models.map((model, index) => (
-              <li key={index}>{model}</li>))}</li>
+          tel.map((data) => (
+            <ul key={data.brand}><strong>{data.brand}</strong>
+            <li>
+                {data.series.map((model, index) => (
+                  <li key={index}>{model}</li>
+                ))}
+              </li>
             </ul>
           ))
         ) : (

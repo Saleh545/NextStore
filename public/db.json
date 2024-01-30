@@ -1,231 +1,211 @@
 {
   "data": {
-
     "brendler": [
       {
         "name": "HP",
-        "id": 1
+        "id": "laptop-1"
       },
       {
         "name": "Dell",
-        "id": 2
+        "id": "laptop-2"
       },
       {
         "name": "Apple",
-        "id": 3
+        "id": "laptop-3"
       },
       {
         "name": "Asus",
-        "id": 4
+        "id": "laptop-4"
       },
       {
         "name": "Acer",
-        "id": 5
+        "id": "laptop-5"
       },
       {
         "name": "Lenovo",
-        "id": 6
+        "id": "laptop-6"
       },
       {
         "name": "Toshiba",
-        "id": 7
+        "id": "laptop-7"
       },
       {
         "name": "MSI",
-        "id": 8
+        "id": "laptop-8"
       },
       {
         "name": "Monster",
-        "id": 9
+        "id": "laptop-9"
       },
       {
         "name": "Razer",
-        "id": 10
+        "id": "laptop-10"
       },
       {
         "name": "Casper",
-        "id": 11
+        "id": "laptop-11"
       },
       {
         "name": "Microsoft Surface",
-        "id": 12
+        "id": "laptop-12"
+      }
+    ],
+    "laptops": [
+      {
+        "brand": "HP",
+        "models": ["15cs-2073cl", "Compaq cq58", "Envy"]
+      },
+      {
+        "brand": "Dell",
+        "models": ["Latitude", "Vostro", "Rugged", "Inspirion"]
+      },
+      {
+        "brand": "Macbook",
+        "models": ["Air", "Air m3", "Pro m3 Max", "mi-1"]
+      },
+      {
+        "brand": "Acer",
+        "models": ["Aspire", "Nitro", "Predator", "Helios"]
+      },
+      {
+        "brand": "Asus",
+        "models": ["Tuf gaming", "Rog", "Vivobook", "Zenbook"]
+      },
+      {
+        "brand": "Toshiba",
+        "models": ["Satellite", "Magic", "P 755", "L 775"]
+      },
+      {
+        "brand": "Casper",
+        "models": ["Nirvana", "Office", "Excalibur", "Swift"]
+      },
+      {
+        "brand": "Lenovo",
+        "models": ["Yoga", "Ideapad", "Thinkbook", "c940"]
+      },
+      {
+        "brand": "MSI",
+        "models": ["Vector", "Sword", "Katana", "Modern"]
+      }
+    ],
+  
+    "telBrendler": [
+      {
+        "name": "Samsung",
+        "id": "phone-1"
+      },
+      {
+        "name": "Vivo",
+        "id": "phone-2"
+      },
+      {
+        "name": "Tecno",
+        "id": "phone-3"
+      },
+      {
+        "name": "Realme",
+        "id": "phone-4"
+      },
+      {
+        "name": "Xiaomi",
+        "id": "phone-5"
+      },
+      {
+        "name": "Apple",
+        "id": "phone-6"
+      },
+      {
+        "name": "Artel",
+        "id": "phone-7"
+      },
+      {
+        "name": "Nokia",
+        "id": "phone-8"
+      },
+      {
+        "name": "Infinix",
+        "id": "phone-9"
+      },
+      {
+        "name": "OnePlus",
+        "id": "phone-10"
+      },
+      {
+        "name": "ZTE",
+        "id": "phone-11"
+      },
+      {
+        "name": "Blackwiew",
+        "id": "phone-12"
+      },
+      {
+        "name": "Oppo",
+        "id": "phone-13"
+      },
+      {
+        "name": "Ergo",
+        "id": "phone-14"
+      },
+      {
+        "name": "BQ",
+        "id": "phone-15"
+      },
+      {
+        "name": "Huawei",
+        "id": "phone-16"
+      },
+      {
+        "name": "Alcatel",
+        "id": "phone-17"
+      },
+      {
+        "name": "TCL",
+        "id": "phone-18"
+      },
+      {
+        "name": "Inoi",
+        "id": "phone-19"
+      }
+    ],
+  
+    "telephones": [
+      {
+        "brand": "Samsung",
+        "series": ["A", "S", "Note", "M"]
+      },
+      {
+        "brand": "Xiaomi",
+        "series": ["A", "S", "Note", "M"]
+      },
+      {
+        "brand": "Redmi",
+        "series": ["A", "S", "Note", "M"]
+      },
+      {
+        "brand": "Nokia",
+        "series": ["A", "S", "Note", "M"]
+      },
+      {
+        "brand": "Oppo",
+        "series": ["A", "S", "Note", "M"]
+      },
+      {
+        "brand": "Huawei",
+        "series": ["A", "S", "Note", "M"]
+      },
+      {
+        "brand": "Apple",
+        "series": ["A", "S", "Note", "M"]
+      },
+      {
+        "brand": "Honor",
+        "series": ["A", "S", "Note", "M"]
+      },
+      {
+        "brand": "Sony",
+        "series": ["A", "S", "Note", "M"]
       }
     ]
-  },
+  }
 
-  "laptops": [
-    {
-      "brand": "HP",
-      "models": ["15cs-2073cl", "Compaq cq58", "Envy"]
-    },
-    {
-      "brand": "Dell",
-      "models": ["Latitude", "Vostro", "Rugged", "Inspirion"]
-    },
-    {
-      "brand": "Macbook",
-      "models": ["Air", "Air m3", "Pro m3 Max", "mi-1"]
-    },
-    {
-      "brand": "Acer",
-      "models": ["Aspire", "Nitro", "Predator", "Helios"]
-    },
-    {
-      "brand": "Asus",
-      "models": ["Tuf gaming", "Rog", "Vivobook", "Zenbook"]
-    },
-    {
-      "brand": "Toshiba",
-      "models": ["Satellite", "Magic", "P 755", "L 775"]
-    },
-    {
-      "brand": "Casper",
-      "models": ["Nirvana", "Office", "Excalibur", "Swift"]
-    },
-    {
-      "brand": "Lenovo",
-      "models": ["Yoga", "Ideapad", "Thinkbook", "c940"]
-    },
-    {
-      "brand": "MSI",
-      "models": ["Vector", "Sword", "Katana", "Modern"]
-    }
-  ],
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  "brendlers": [
-    {
-      "name": "Samsung",
-      "id": 1
-    },
-    {
-      "name": "Vivo",
-      "id": 2
-    },
-    {
-      "name": "Tecno",
-      "id": 3
-    },
-    {
-      "name": "Realme",
-      "id": 4
-    },
-    {
-      "name": "Xiaomi",
-      "id": 5
-    },
-    {
-      "name": "Apple",
-      "id": 6
-    },
-    {
-      "name": "Artel",
-      "id": 7
-    },
-    {
-      "name": "Nokia",
-      "id": 8
-    },
-    {
-      "name": "Infinix",
-      "id": 9
-    },
-    {
-      "name": "OnePlus",
-      "id": 10
-    },
-    {
-      "name": "ZTE",
-      "id": 11
-    },
-    {
-      "name": "Blackwiew",
-      "id": 12
-    },
-    {
-      "name": "Oppo",
-      "id": 13
-    },
-    {
-      "name": "Ergo",
-      "id": 14
-    },
-    {
-      "name": "BQ",
-      "id": 15
-    },
-    {
-      "name": "Huawei",
-      "id": 16
-    },
-    {
-      "name": "Alcatel",
-      "id": 17
-    },
-    {
-      "name": "TCL",
-      "id": 18
-    },
-    {
-      "name": "Inoi",
-      "id": 19
-    }
-  ],
-
-
-  "telephones": [
-    {
-      "brand": "Samsung",
-      "series": ["A", "S", "Note", "M"]
-    },
-    {
-      "brand": "Xiaomi",
-      "series": ["A", "S", "Note", "M"]
-    },
-    {
-      "brand": "Redmi",
-      "series": ["A", "S", "Note", "M"]
-    },
-    {
-      "brand": "Nokia",
-      "series": ["A", "S", "Note", "M"]
-    },
-    {
-      "brand": "Oppo",
-      "series": ["A", "S", "Note", "M"]
-    },
-    {
-      "brand": "Huawei",
-      "series": ["A", "S", "Note", "M"]
-    },
-    {
-      "brand": "Apple",
-      "series": ["A", "S", "Note", "M"]
-    },
-    {
-      "brand": "Honor",
-      "series": ["A", "S", "Note", "M"]
-    },
-    {
-      "brand": "Sony",
-      "series": ["A", "S", "Note", "M"]
-    }
-  ]
 }

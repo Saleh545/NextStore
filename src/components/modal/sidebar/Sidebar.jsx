@@ -19,7 +19,7 @@ import "./pages/Bathroom";
 import "./pages/Bedroom";
 import "./pages/Accessory";
 
-const Sidebar = ({ children }) => {
+const Sidebar = () => {
   const menuItem = [
     {
       path: "/Computers",
@@ -93,7 +93,6 @@ const Sidebar = ({ children }) => {
           <p className="link-text" activeClassName='active-link'>{item.name}</p>
         </NavLink>
       ))}
-      <main>{children}</main>
     </div>
   );
 };
