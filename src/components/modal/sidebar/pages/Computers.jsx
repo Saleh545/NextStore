@@ -10,11 +10,11 @@ const Computers = () => {
       try {
         const response = await fetch("/db.json");
         const data = await response.json();
-        // Brendləri güncelle
-        console.log(data)
+        // Brend
+        // console.log(data);
         setBrands(data.data.brendler);
-        // Laptop modellərini güncelle
-        setComp(data.laptops);
+        // notbuk modelleri
+        setComp(data.data.laptops);
       } catch (error) {
         console.error("error fetching data", error);
       }
@@ -24,10 +24,11 @@ const Computers = () => {
   }, []);
 
   return (
-    <div className="telephones">
+    <div className="parent">
       <div className="left">
         <ul>
           <li><strong>Brendlər</strong></li>
+
           {brands ? (
             brands.map((brand) => <li key={brand.id}>{brand.name}</li>)
           ) : (
@@ -39,13 +40,11 @@ const Computers = () => {
       <div className="right">
         {comp ? (
           comp.map((data) => (
-
-            <ul key={data.brand}><strong>{data.brand}</strong><li>
-
-                {data.models.map((model, index) => (
-                  <li key={index}>{model}</li>
-                ))}
-              </li>
+            <ul key={data.brand}>
+              <strong>{data.brand}</strong>
+              {data.models.map((model, index) => (
+                <li key={index}>{model}</li>
+              ))}
             </ul>
           ))
         ) : (
@@ -55,5 +54,4 @@ const Computers = () => {
     </div>
   );
 };
-
 export default Computers;

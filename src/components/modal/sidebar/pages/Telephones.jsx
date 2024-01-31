@@ -10,7 +10,7 @@ const Computers = () => {
       try {
         const response = await fetch("/db.json");
         const data = await response.json();
-        console.log("Data", data);
+        // console.log("Data", data);
 
         // Tel markalarını güncelle
         setTelBrands(data.data.telBrendler);
@@ -26,7 +26,7 @@ const Computers = () => {
   }, []);
 
   return (
-    <div className="telephones">
+    <div className="parent">
       <div className="left">
         <ul>
           <li>
@@ -44,11 +44,9 @@ const Computers = () => {
         {tel ? (
           tel.map((data) => (
             <ul key={data.brand}><strong>{data.brand}</strong>
-            <li>
                 {data.series.map((model, index) => (
                   <li key={index}>{model}</li>
                 ))}
-              </li>
             </ul>
           ))
         ) : (

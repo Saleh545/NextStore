@@ -46,7 +46,7 @@
         "id": "laptop-11"
       },
       {
-        "name": "Microsoft Surface",
+        "name": "Microsoft",
         "id": "laptop-12"
       }
     ],
@@ -88,7 +88,9 @@
         "models": ["Vector", "Sword", "Katana", "Modern"]
       }
     ],
-  
+
+
+
     "telBrendler": [
       {
         "name": "Samsung",
@@ -167,45 +169,165 @@
         "id": "phone-19"
       }
     ],
-  
+
     "telephones": [
       {
         "brand": "Samsung",
-        "series": ["A", "S", "Note", "M"]
+        "series": ["A10", "S23 Ultra", "Note 8", "M21"]
       },
       {
         "brand": "Xiaomi",
-        "series": ["A", "S", "Note", "M"]
+        "series": ["Mi pro 9", "Poco X3", "12 Pro", "Redmi 9c"]
       },
       {
-        "brand": "Redmi",
-        "series": ["A", "S", "Note", "M"]
+        "brand": "Tecno",
+        "series": ["Spark", "Pova", "10c", "Pop"]
       },
       {
         "brand": "Nokia",
-        "series": ["A", "S", "Note", "M"]
+        "series": ["Lumia", "Xpress", "N73", "6300"]
       },
       {
         "brand": "Oppo",
-        "series": ["A", "S", "Note", "M"]
+        "series": ["Reno8", "A73", "Find X2 Pro", "A58"]
       },
       {
         "brand": "Huawei",
-        "series": ["A", "S", "Note", "M"]
+        "series": ["Nova", "P60", "Y5 Prime", "Mate 50"]
       },
       {
         "brand": "Apple",
-        "series": ["A", "S", "Note", "M"]
+        "series": ["15 Pro Max", "13 mini", "7s", "8 plus"]
       },
       {
         "brand": "Honor",
-        "series": ["A", "S", "Note", "M"]
+        "series": ["X6", "90 Lite", "X8", "10 Lite"]
       },
       {
         "brand": "Sony",
-        "series": ["A", "S", "Note", "M"]
+        "series": ["Ericson", "Xperia", "Pureness", "Alpine"]
       }
-    ]
-  }
+    ],
 
+
+
+    "holdname": [
+      { "name": "BOSCH", "id": "meiset-1" },
+      { "name": "LG", "id": "meiset-2" },
+      { "name": "Gorenje", "id": "meiset-3" },
+      { "name": "Daewoo", "id": "meiset-4" },
+      { "name": "Samsung", "id": "meiset-5" },
+      { "name": "Simfer", "id": "meiset-6" },
+      { "name": "Fakir", "id": "meiset-7" },
+      { "name": "Tefal", "id": "meiset-8" },
+      { "name": "Sencor", "id": "meiset-9" },
+      { "name": "Braun", "id": "meiset-10" },
+      { "name": "Philips", "id": "meiset-11" },
+      { "name": "Arçelik", "id": "meiset-12" },
+      { "name": "Beko", "id": "meiset-13" },
+      { "name": "Simfer", "id": "meiset-14" },
+      { "name": "Zimmer", "id": "meiset-15" },
+      { "name": "Arnica", "id": "meiset-16" },
+      { "name": "Hotpoint", "id": "meiset-17" },
+      { "name": "Artel", "id": "meiset-18" },
+      { "name": "Midea", "id": "meiset-19" }
+    ],
+
+    "homeproduct": [
+      {
+        "brand": "LG",
+        "models": ["Kondisioner", "Blender ", "Telefon"]
+      },
+      {
+        "brand": "Beko",
+        "models": ["Soyuducu", "Toster ", "Şirəçəkən"]
+      },
+      {
+        "brand": "Simfer",
+        "models": ["Mikrodalğa", "Çaydan ", "Fen"]
+      },
+      {
+        "brand": "Samsung",
+        "models": ["Paltaryuyan", "Soyuducu ", "Tozsovuran"]
+      },
+      {
+        "brand": "Arçelik",
+        "models": ["Ütü", "Qəhvə ", "Tozsovuran"]
+      },
+      {
+        "brand": "Daewoo",
+        "models": ["Paltaryuyan", "Soyuducu ", "Tozsovuran"]
+      },
+      {
+        "brand": "Zimmer",
+        "models": ["Soyuducu", "Toster ", "Şirəçəkən"]
+      },
+      {
+        "brand": "BOSCH",
+        "models": ["Mikrodalğa", "Çaydan ", "Fen"]
+      },
+      {
+        "brand": "Midea",
+        "models": ["Kondisioner", "Blender ", "Telefon"]
+      }
+    ],
+
+
+
+    "menclothes": [
+      { "name": "Geyim", "id": "paltar-1" },
+      { "name": "Ayaqqabı", "id": "paltar-2" },
+      { "name": "Çanta", "id": "paltar-3" },
+      { "name": "Aksesuar", "id": "paltar-4" },
+      { "name": "İdman və Çöl", "id": "paltar-5" },
+      { "name": "Elektronika", "id": "paltar-6" },
+      { "name": "İç geyim", "id": "paltar-8" },
+      { "name": "Şəxsi qayğı", "id": "paltar-9" },
+      { "name": "Lüks və Dizayner", "id": "paltar-10" }
+
+    ],
+
+    "menproduct":[
+      {
+        "brand": "Geyim",
+        "models": [ "Şort", "Eşofman", "Şalvar"]
+      },
+      {
+        "brand": "Ayaqqabı",
+        "models": [ "Gündəlik ", "Gəzinti ayaqqabısı", "Qaçış Ayaqqabıları"]
+      },
+      {
+        "brand": "İdman və Çöl",
+        "models": ["İdman ayaqqabısı", "İdman Corabları","Köynək","Svitter"]
+      },
+      {
+        "brand": "Şəxsi qayğı",
+        "models": ["Təraşdan Sonra Məhsullar", "Ülgüc bıçağı", "Dezodorant"]
+      },
+      {
+        "brand": "Çanta",
+        "models": [ "Noutbuk çantası", "Çamadan və Baqaj", "Messenger Çantası"]
+      },
+      {
+        "brand": "Saat & Aksesuar",
+        "models": ["Saat", "Günəş eynəyi", "Pul kisəsi"]
+      },
+      {
+        "brand": "Elektronika",
+        "models": ["Təraş maşını", "Mobil telefon", "Ağıllı saat"]
+      },
+      {
+        "brand": "İç geyim",
+        "models": ["Boksçular", "Çorab", "Pijama"]
+      },
+      {
+        "brand": "Lüks və Dizayner",
+        "models": ["Lüks Geyim", "Lüks Ayaqqabılar", "Lüks Çanta"]
+      }
+
+    ]
+
+
+
+  }
 }

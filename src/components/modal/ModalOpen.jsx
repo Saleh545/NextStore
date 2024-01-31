@@ -6,7 +6,7 @@ import { IoMdCloseCircleOutline } from 'react-icons/io';
 import Routes from "../routes/Routes.jsx";
 
 
-const Modalopen = (props) => {
+const Modalopen = () => {
   const [modal, setModal] = useState(false);
 
   const toggle = () => setModal(!modal);
@@ -17,7 +17,7 @@ const Modalopen = (props) => {
         <Header toggle={toggle} />
         <div className="modalSize ">
           <Modal style={{margin:" 16px  auto"}} isOpen={modal} toggle={toggle} size="xl">
-            <ModalBody >
+            <ModalBody>
                 <IoMdCloseCircleOutline onClick={()=>!toggle()} style={{ width:"25px", height:"30px", position:"absolute", right:"0", top:"0", margin:"1rem", cursor:"pointer" }} />
               <Row >
                 <Col lg="4" >

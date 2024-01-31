@@ -19,6 +19,7 @@ import Accessory from "../modal/sidebar/pages/Accessory";
 const AppRoutes = () => {
   return (
     <Routes>
+      <Route path="/" element={<Computers/>} />
       <Route path="/Computers" element={<Computers />} />
       <Route path="/Telephones" element={<Telephones />} />
       <Route path="/Household" element={<Household />} />

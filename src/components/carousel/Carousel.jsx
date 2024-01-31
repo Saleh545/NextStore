@@ -29,21 +29,22 @@ const Carousel = () => {
     <div>
       <Container>
         <OwlCarousel className="owl-theme" {...options} nav dots>
-          <div class="item">
+          <div className="item">
             <img src="/images/sliderr.png" alt="" />
           </div>{" "}
-          <div class="item">
+          <div className="item">
             <img src="/images/slider.jpg" alt="" />
           </div>{" "}
-          <div class="item">
+          <div className="item">
             <img src="/images/sliderr.png" alt="" />
           </div>{" "}
-          <div class="item">
+          <div className="item">
             <img src="/images/slider.jpg" alt="" />
           </div>{" "}
-          <div class="item">
+          <div className="item">
             <img src="/images/sliderr.png" alt="" />
-          </div>   <div class="item">
+          </div>{" "}
+          <div className="item">
             <img src="/images/slider.jpg" alt="" />
           </div>
         </OwlCarousel>

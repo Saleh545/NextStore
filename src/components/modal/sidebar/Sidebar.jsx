@@ -89,8 +89,8 @@ const Sidebar = () => {
   return (
     <div className="sidebar" >
       {menuItem.map((item, index) => (
-        <NavLink to={item.path} key={index} className="link"  activeClassName='active-link'>
-          <p className="link-text" activeClassName='active-link'>{item.name}</p>
+        <NavLink to={item.path} key={index} className="link"  >
+          <p className="link-text" >{item.name}</p>
         </NavLink>
       ))}
     </div>
